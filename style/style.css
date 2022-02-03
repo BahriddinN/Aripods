@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #151515;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url(../image/Header.jpg);
+    background-position: center;
+}
+
+.nav {
+    background-color: #282828;
+}
+
+.nav__logo {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.title {
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav__icons {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header__text {
+    font-family: Prosto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 75px;
+    /* identical to box height, or 75% */
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 204px;
+}
+
+.header__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 18px;
+    padding: 13px 14px;
+    list-style: none;
+    text-decoration: none;
+    color: #171718;
+}
+
+.header_link {
+    display: block;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.header__link i {
+    margin-left: 11px;
+    width: 16px;
+    height: 15px;
+}
+
+.main__block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__blockimg {
+    display: block;
+    width: 550px;
+    height: 335px;
+    left: 815px;
+    top: 730px;
+}
+
+.main__block__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.main__blockdiv {
+    width: 500px;
+}
+
+.main__block2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+
+.main__blockdiv2 {
+    display: flex;
+    width: 540px;
+    align-items: center;
+}
+
+.main__blockimg2 {
+    display: block;
+    width: 457px;
+}
+
+.block__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockdiv1 {
+    width: 333px;
+    display: block;
+    align-items: center;
+}
+
+.blockdiv5 {
+    width: 333px;
+    display: block;
+    align-items: center;
+}
+
+.blockdiv__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.blockdiv2 {
+    width: 61px;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+
+.mainblock {
+    width: 255px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 312px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.mainblock__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.mainblock__pric {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.mainblock__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 7px 57px;
+    background-color: #151515;
+    list-style: none;
+    text-decoration: none;
+}
+
+.mainblock__img {
+    height: 167px;
+    margin: 10px 0;
+}
+
+.main__divblock {
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.min__divitem {
+    display: flex;
+}
+
+.footer {
+    height: 215px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.footer__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__icon i {
+    color: white;
+    width: 70px;
+}
+
+.footer__icon {
+    margin-left: 29px;
+}
